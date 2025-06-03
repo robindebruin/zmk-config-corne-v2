@@ -7,7 +7,32 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-// #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+
+
+
+
+/* ------ MOUSE CLICK SETTINGS----- */
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1100  // default: 600 the default value of the max speed depends on this
+&mmv {
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
+        time-to-max-speed-ms = <700>; // DEFAULT: 300
+        acceleration-exponent = <1>;
+};
+/* ------------------------------- */
+
+/* ------MOUSE SCROLL SETTINGS----- */
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
+&msc {
+    x-input-code = <INPUT_REL_HWHEEL>;
+    y-input-code = <INPUT_REL_WHEEL>;
+    time-to-max-speed-ms = <700>; // DEFAULT: 300
+    acceleration-exponent = <0>;
+};
+/* ------------------------------- */
+
+
 
 / {
         keymap {
