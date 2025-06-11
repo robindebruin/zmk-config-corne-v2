@@ -22,13 +22,13 @@
 
 /* ------ MOUSE MOVE SETTINGS----- */
 &mmv {
-	time-to-max-speed-ms = <700>;// DEFAULT: 300
+	time-to-max-speed-ms = <700>;
 	acceleration-exponent = <1>;
 };
 
 /* ------MOUSE SCROLL SETTINGS----- */
 &msc {
-	time-to-max-speed-ms = <700>;// DEFAULT: 300
+	time-to-max-speed-ms = <300>;
 	acceleration-exponent = <1>;
 };
 /* ------------------------------- */
@@ -56,8 +56,7 @@
 			tapping-term-ms = <280>;
 			flavor = "balanced";
 			
-			// when pressed _again_ within this time tap behavior will be triggered
-			
+			// when pressed _again_ within this time tap behavior will be triggered			
 			quick-tap-ms = <175>;
 			
 			// require-prior-idle-ms is like quick-tap-ms however it will apply for any non-modifier key pressed before it. 
@@ -135,8 +134,8 @@
 		
 		mouse_ {
 			bindings = <
-			&trans  &none      &mkp RCLK     &mkp MCLK         &mkp LCLK       &none     &msc SCRL_DOWN  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none  &trans
-			&to 0   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none     &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &trans
+			&trans  &none      &mkp RCLK     &mkp MCLK         &mkp LCLK       &none     &msc SCROLL_DOWN  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none  &trans
+			&to 0   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none     &msc SCROLL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &trans
 			&trans  &none      &none         &none             &none           &none     &none           &none           &none           &none            &none  &trans
 			&trans            &trans          &trans    &trans          &trans          &trans
 			>;
