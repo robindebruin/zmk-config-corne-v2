@@ -111,7 +111,7 @@
 		symbol {
 			bindings = <
 			&trans  &kp EXCLAMATION   &kp AT               &kp HASH                      &kp DOLLAR                        &kp PERCENT          &kp CARET  &kp AMPS                &kp ASTERISK              &kp UNDERSCORE       &none      &trans
-			&to 0   &hml NON_US_BACKSLASH  &hml LEFT_ALT TILDE  &hml LEFT_COMMAND LEFT_BRACE  &hml LEFT_SHIFT LEFT_PARENTHESIS  &kp LEFT_BRACKET     &kp PIPE   &hmr RIGHT_SHIFT MINUS  &hmr RIGHT_COMMAND EQUAL  &hmr RIGHT_ALT PLUS  &kp LCTRL  &trans
+			&to 0   &hml LCTRL GRAVE  &hml LEFT_ALT TILDE  &hml LEFT_COMMAND LEFT_BRACE  &hml LEFT_SHIFT LEFT_PARENTHESIS  &kp LEFT_BRACKET     &kp PIPE   &hmr RIGHT_SHIFT MINUS  &hmr RIGHT_COMMAND EQUAL  &hmr RIGHT_ALT PLUS  &kp LCTRL  &trans
 			&trans  &kp LESS_THAN     &kp GREATER_THAN     &kp RIGHT_BRACE               &kp RIGHT_PARENTHESIS             &kp RIGHT_BRACKET    &none      &none                   &trans                    &trans               &trans     &trans
 			&trans                        &trans                            &trans               &trans     &trans                  &trans
 			>;
