@@ -148,10 +148,10 @@
 
         mouse_ {
             bindings = <
-&trans  &none      &mkp RCLK     &none                   &none                 &none     &msc SCRL_DOWN  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none  &trans
-&to 0   &kp LCTRL  &kp LEFT_ALT  &hml LEFT_COMMAND MCLK  &hml LEFT_SHIFT LCLK  &none     &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &trans
-&trans  &none      &none         &none                   &none                 &none     &none           &none           &none           &none            &none  &trans
-                                 &trans                  &trans                &trans    &trans          &trans          &trans
+&trans  &none      &none         &none      &none      &none     &msc SCRL_DOWN  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none  &trans
+&to 0   &kp LCTRL  &kp LEFT_ALT  &mkp RCLK  &mkp LCLK  &none     &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &trans
+&trans  &none      &none         &none      &none      &none     &none           &none           &none           &none            &none  &trans
+                                 &trans     &trans     &trans    &trans          &trans          &trans
             >;
         };
 
