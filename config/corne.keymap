@@ -88,10 +88,35 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_caps_lock {
+		combo_caps_lock {
             timeout-ms = <50>;
-            key-positions = <13 22>;// Left A + Right semicolon
+            key-positions = <13 22>; // Left A + Right semicolon
             bindings = <&kp CAPS>;
+        };
+        combo_copy {
+            timeout-ms = <40>;
+            key-positions = <15 26>; // D + C
+            bindings = <&copy_macro>;
+        };
+        combo_cut {
+            timeout-ms = <40>;
+            key-positions = <14 28>; // S + X
+            bindings = <&cut_macro>;
+        };
+        combo_paste {
+            timeout-ms = <40>;
+            key-positions = <16 28>; // F + V
+            bindings = <&paste_macro>;
+        };
+        combo_undo {
+            timeout-ms = <40>;
+            key-positions = <13 24>; // A + Z
+            bindings = <&undo_macro>;
+        };
+        combo_cmdtab {
+            timeout-ms = <40>;
+            key-positions = <0 1>; // TAB + Q
+            bindings = <&cmdtab_macro>;
         };
     };
 
