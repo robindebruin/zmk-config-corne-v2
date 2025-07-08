@@ -93,26 +93,31 @@
             key-positions = <13 22>; // Left A + Right semicolon
             bindings = <&kp CAPS>;
         };
+
         combo_copy {
             timeout-ms = <40>;
-            key-positions = <15 26>; // D + C
+            key-positions = <15 27>; // D + C
             bindings = <&macro_tap LCTRL C>;
         };
+
         combo_cut {
             timeout-ms = <40>;
-            key-positions = <14 28>; // S + X
+            key-positions = <14 26>; // S + X
             bindings = <&macro_tap LCTRL X>;
         };
+
         combo_paste {
             timeout-ms = <40>;
             key-positions = <16 28>; // F + V
             bindings = <&macro_tap LCTRL V>;
         };
+
         combo_undo {
             timeout-ms = <40>;
-            key-positions = <13 24>; // A + Z
+            key-positions = <13 25>; // A + Z
             bindings = <&macro_tap LCTRL Z>;
         };
+
         combo_cmdtab {
             timeout-ms = <40>;
             key-positions = <0 1>; // TAB + Q
