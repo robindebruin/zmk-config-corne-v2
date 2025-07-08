@@ -97,31 +97,31 @@
         combo_copy {
             timeout-ms = <40>;
             key-positions = <15 27>; 
-            bindings = <LG(c)>; // cmd + C
+            bindings = <&kp LG(c)>; // cmd + C
         };
 
         combo_cut {
             timeout-ms = <40>;
             key-positions = <14 26>;  
-            bindings = <LG(x)>; // cmd + X
+            bindings = <&kp LG(x)>; // cmd + X
         };
 
         combo_paste {
             timeout-ms = <40>;
             key-positions = <16 28>;  
-            bindings = <LG(V)>; // cmd + V
+            bindings = <&kp LG(V)>; // cmd + V
         };
 
         combo_undo {
             timeout-ms = <40>;
             key-positions = <13 25>;  
-            bindings = <LG(Z)>; // cmd + Z
+            bindings = <&kp LG(Z)>; // cmd + Z
         };
 
         combo_cmdtab {
             timeout-ms = <40>;
             key-positions = <0 1>;  
-            bindings = <LG(TAB)>;  // cmd + TAB
+            bindings = <&kp LG(TAB)>;  // cmd + TAB
         };
     };
 
