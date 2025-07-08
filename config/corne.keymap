@@ -97,13 +97,13 @@
         combo_copy {
             timeout-ms = <40>;
             key-positions = <15 27>; 
-            bindings = <&kp LG(c)>; // cmd + C
+            bindings = <&kp LG(C)>; // cmd + C
         };
 
         combo_cut {
             timeout-ms = <40>;
             key-positions = <14 26>;  
-            bindings = <&kp LG(x)>; // cmd + X
+            bindings = <&kp LG(X)>; // cmd + X
         };
 
         combo_paste {
