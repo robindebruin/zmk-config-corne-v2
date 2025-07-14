@@ -173,13 +173,24 @@
         combo_left_bracket {
             timeout-ms = <40>;
             key-positions = <13 14>; // A + S
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LEFT_BRACKET>; // [
         };
         combo_left_brace {
             timeout-ms = <40>;
             key-positions = <13 14>; // A + S
             mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LEFT_BRACE>; // {
+        };
+        combo_right_bracket {
+            timeout-ms = <40>;
+            key-positions = <14 15>; // S + D
+            bindings = <&kp RIGHT_BRACKET>; // ]
+        };
+        combo_right_brace {
+            timeout-ms = <40>;
+            key-positions = <14 15>; // S + D
+            mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
+            bindings = <&kp RIGHT_BRACE>; // }
         };
     };
 
