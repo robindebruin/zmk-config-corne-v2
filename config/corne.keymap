@@ -192,6 +192,21 @@
             mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
             bindings = <&kp RIGHT_BRACE>; // }
         };
+        combo_minus {
+            timeout-ms = <40>;
+            key-positions = <19 20>; // J + K
+            bindings = <&kp MINUS>;
+        };
+        combo_equal {
+            timeout-ms = <40>;
+            key-positions = <20 21>; // K + L
+            bindings = <&kp EQUAL>;
+        };
+        combo_plus {
+            timeout-ms = <40>;
+            key-positions = <21 22>; // L + ;
+            bindings = <&kp PLUS>;
+        };
     };
 
     keymap {
