@@ -170,6 +170,16 @@
             key-positions = <9 21>; // O + L
             bindings = <&kp UNDERSCORE>;
         };
+	    combo_pipe {
+            timeout-ms = <40>;
+            key-positions = <10 22>; // P + semicolon
+            bindings = <&kp PIPE>;
+        };
+        combo_backslash {
+            timeout-ms = <40>;
+            key-positions = <11 23>; 
+            bindings = <&kp BACKSLASH>;
+        };
         combo_left_bracket {
             timeout-ms = <40>;
             key-positions = <13 14>; // A + S
@@ -197,14 +207,15 @@
             key-positions = <21 22>; // L + ;
             bindings = <&kp PLUS>;
         };
+
         combo_left_paren {
             timeout-ms = <40>;
-            key-positions = <25 26>; // z + x
+            key-positions = <25 26>; // X + C
             bindings = <&kp LEFT_PARENTHESIS>;
         };
         combo_right_paren {
             timeout-ms = <40>;
-            key-positions = <27 28>; // X + C
+            key-positions = <27 28>; // V + B
             bindings = <&kp RIGHT_PARENTHESIS>;
         };
     };
