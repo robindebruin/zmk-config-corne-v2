@@ -165,6 +165,22 @@
             key-positions = <8 20>; // I + K
             bindings = <&kp ASTERISK>;
         };
+        combo_underscore {
+            timeout-ms = <40>;
+            key-positions = <9 21>; // O + L
+            bindings = <&kp UNDERSCORE>;
+        };
+        combo_left_bracket {
+            timeout-ms = <40>;
+            key-positions = <13 14>; // A + S
+            bindings = <&kp LEFT_BRACKET>;
+        };
+        combo_left_brace {
+            timeout-ms = <40>;
+            key-positions = <13 14>; // A + S
+            mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
+            bindings = <&kp LEFT_BRACE>;
+        };
     };
 
     keymap {
