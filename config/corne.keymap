@@ -90,38 +90,80 @@
 
         combo_caps_lock {
             timeout-ms = <50>;
-            key-positions = <13 22>; // Left A + Right semicolon
+            key-positions = <13 22>;
             bindings = <&kp CAPS>;
         };
 
         combo_copy {
             timeout-ms = <40>;
-            key-positions = <15 27>; 
-            bindings = <&kp LG(C)>; // cmd + C
+            key-positions = <15 27>;
+            bindings = <&kp LG(C)>;
         };
 
         combo_cut {
             timeout-ms = <40>;
-            key-positions = <14 26>;  
-            bindings = <&kp LG(X)>; // cmd + X
+            key-positions = <14 26>;
+            bindings = <&kp LG(X)>;
         };
 
         combo_paste {
             timeout-ms = <40>;
-            key-positions = <16 28>;  
-            bindings = <&kp LG(V)>; // cmd + V
+            key-positions = <16 28>;
+            bindings = <&kp LG(V)>;
         };
 
         combo_undo {
             timeout-ms = <40>;
-            key-positions = <13 25>;  
-            bindings = <&kp LG(Z)>; // cmd + Z
+            key-positions = <13 25>;
+            bindings = <&kp LG(Z)>;
         };
 
         combo_cmdtab {
             timeout-ms = <40>;
-            key-positions = <0 1>;  
-            bindings = <&kp LG(TAB)>;  // cmd + TAB
+            key-positions = <0 1>;
+            bindings = <&kp LG(TAB)>;
+        };
+
+        // Symbol combos
+        combo_exclamation {
+            timeout-ms = <40>;
+            key-positions = <1 13>; // Q + A
+            bindings = <&kp EXCLAMATION>;
+        };
+        combo_at {
+            timeout-ms = <40>;
+            key-positions = <2 14>; // W + S
+            bindings = <&kp AT>;
+        };
+        combo_hash {
+            timeout-ms = <40>;
+            key-positions = <3 15>; // E + D
+            bindings = <&kp HASH>;
+        };
+        combo_dollar {
+            timeout-ms = <40>;
+            key-positions = <4 16>; // R + F
+            bindings = <&kp DOLLAR>;
+        };
+        combo_percent {
+            timeout-ms = <40>;
+            key-positions = <5 17>; // T + G
+            bindings = <&kp PERCENT>;
+        };
+        combo_caret {
+            timeout-ms = <40>;
+            key-positions = <6 18>; // Y + H
+            bindings = <&kp CARET>;
+        };
+        combo_ampersand {
+            timeout-ms = <40>;
+            key-positions = <7 19>; // U + J
+            bindings = <&kp AMPS>;
+        };
+        combo_asterisk {
+            timeout-ms = <40>;
+            key-positions = <8 20>; // I + K
+            bindings = <&kp ASTERISK>;
         };
     };
 
