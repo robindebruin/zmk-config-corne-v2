@@ -173,25 +173,15 @@
         combo_left_bracket {
             timeout-ms = <40>;
             key-positions = <13 14>; // A + S
-            bindings = <&kp LEFT_BRACKET>; // [
+            bindings = <&kp LEFT_BRACKET>; // [ & {
         };
-        combo_left_brace {
-            timeout-ms = <40>;
-            key-positions = <13 14>; // A + S
-            mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
-            bindings = <&kp LEFT_BRACE>; // {
-        };
+
         combo_right_bracket {
             timeout-ms = <40>;
             key-positions = <14 15>; // S + D
-            bindings = <&kp RIGHT_BRACKET>; // ]
+            bindings = <&kp RIGHT_BRACKET>; // ] & }
         };
-        combo_right_brace {
-            timeout-ms = <40>;
-            key-positions = <14 15>; // S + D
-            mods-required = <(MOD_LSFT|MOD_RSFT)>; // Any shift
-            bindings = <&kp RIGHT_BRACE>; // }
-        };
+ 
         combo_minus {
             timeout-ms = <40>;
             key-positions = <19 20>; // J + K
@@ -206,6 +196,16 @@
             timeout-ms = <40>;
             key-positions = <21 22>; // L + ;
             bindings = <&kp PLUS>;
+        };
+        combo_left_paren {
+            timeout-ms = <40>;
+            key-positions = <25 26>; // z + x
+            bindings = <&kp LEFT_PARENTHESIS>;
+        };
+        combo_right_paren {
+            timeout-ms = <40>;
+            key-positions = <27 28>; // X + C
+            bindings = <&kp RIGHT_PARENTHESIS>;
         };
     };
 
