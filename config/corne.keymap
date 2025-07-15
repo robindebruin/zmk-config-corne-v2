@@ -215,7 +215,7 @@
         };
         combo_right_paren {
             timeout-ms = <40>;
-            key-positions = <27 28>; // V + B
+            key-positions = <26 27>; // V + B
             bindings = <&kp RIGHT_PARENTHESIS>;
         };
     };
