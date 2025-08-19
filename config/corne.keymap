@@ -283,7 +283,16 @@
 			>;
 		};
 		
-		f_keys_press_2_mo {
+		f_keys {
+			bindings = <
+			&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_CLR_ALL    &none    &kp F7  &kp F8  &kp F9  &none    &trans
+			&none   &kp LCTRL     &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none             &kp F10  &kp F4  &kp F5  &kp F6  &kp F11  &kp F12
+			&trans  &none         &none         &none             &none           &none             &none    &kp F1  &kp F2  &kp F3  &none    &trans
+			&trans            &trans          &trans            &trans   &trans  &trans
+			>;
+		};
+		
+		bluetooth {
 			bindings = <
 			&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_CLR_ALL    &none    &kp F7  &kp F8  &kp F9  &none    &trans
 			&none   &kp LCTRL     &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none             &kp F10  &kp F4  &kp F5  &kp F6  &kp F11  &kp F12
