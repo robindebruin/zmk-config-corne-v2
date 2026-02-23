@@ -259,7 +259,7 @@
             >;
         };
 
-        lower {
+        lower__numbers {
             bindings = <
 &trans  &none      &none         &none             &none           &none     &none         &kp N7  &kp N8  &kp N9  &none  &trans
 &none   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none     &none         &kp N4  &kp N5  &kp N6  &none  &none
@@ -268,7 +268,7 @@
             >;
         };
 
-        left_mouse {
+        left__mouse {
             bindings = <
 &trans  &none      &none         &mkp RCLK     &mkp LCLK  &none     &msc SCRL_DOWN  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none  &trans
 &none   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &none      &none     &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &trans
@@ -277,7 +277,7 @@
             >;
         };
 
-        upper {
+        upper__arrows_and_media {
             bindings = <
 &trans  &none      &kp C_PREV    &kp C_PP          &kp C_NEXT      &kp C_VOLUME_UP    &kp PAGE_UP    &none     &kp UP_ARROW  &none      &none   &trans
 &none   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp C_VOL_DN       &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
@@ -286,7 +286,7 @@
             >;
         };
 
-        right_f_keys {
+        right__f_keys {
             bindings = <
 &trans  &none  &none  &none   &none   &none     &none    &kp F7  &kp F8  &kp F9  &none    &trans
 &none   &none  &none  &none   &none   &none     &kp F10  &kp F4  &kp F5  &kp F6  &kp F11  &kp F12
